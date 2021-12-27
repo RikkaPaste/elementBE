@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background: linear-gradient(50deg, rgb(97, 207, 211), rgb(211, 178, 218), rgb(233, 208, 163), rgb(196, 196, 157));
+}
+.el-row{
+    margin-bottom: 15px;
+}
+/* .el-card__body{
+    padding: 0 !important;
+} */
+
+.el-card__body{
+    padding:10px !important;
+}
+.el-header,.el-row{
+    width:500px;
+    white-space:nowrap
+}
+
+/* 设置级联高度 */
+.el-cascader-panel {
+    height: 250px;
+}
+
+.el-cascader-menu__wrap {
+    height: 100% !important;
+}
+
+.ql-snow .ql-editor img {
+    width:20%;
+    margin-left: 10px;
+}
+.ql-toolbar.ql-snow+.ql-container.ql-snow {
+    height:230px;
+}
