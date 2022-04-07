@@ -4,7 +4,11 @@
       <el-breadcrumb separator-class="el-icon-arrow-right">
         <el-breadcrumb-item :to="{ path: '/listorder' }">首页</el-breadcrumb-item>
         <el-breadcrumb-item>商品管理</el-breadcrumb-item>
+<<<<<<< HEAD
         <el-breadcrumb-item :to="{ path: '/listgoods' }">商品列表</el-breadcrumb-item>
+=======
+        <el-breadcrumb-item :to="{ path: '/goodsadd' }">商品列表</el-breadcrumb-item>
+>>>>>>> f74fc68a76e82ff0376a35d34b3412d70ffe1ee9
         <el-breadcrumb-item>添加商品</el-breadcrumb-item>
       </el-breadcrumb>
     </el-header>
