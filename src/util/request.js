@@ -5,8 +5,9 @@ import 'nprogress/nprogress.css'
 NProgress.configure({ showSpinner: false })
 const req = axios.create({
     // baseURL: 'http://lqgapidemo.quechao.xyz',
-    baseURL: 'http://localhost:3000',
+    //baseURL: 'http://localhost:3000',
     // baseURL:'https://lqshuige.top:9000',
+	baseURL:'https://api.rikkas.xyz',
     timeout: 5000
 })
 //请求拦截器

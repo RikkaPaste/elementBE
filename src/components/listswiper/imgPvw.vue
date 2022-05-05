@@ -30,7 +30,7 @@ export default {
   },
   filters: {
     src(src) {
-      return "http://lqgapidemo.quechao.xyz/images/upload/rootswiper/" + src;
+      return "https://api.rikkas.xyz/images/upload/rootswiper/" + src;
     },
   },
 };

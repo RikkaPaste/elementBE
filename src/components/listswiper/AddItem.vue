@@ -71,7 +71,7 @@ export default {
       dialogFormVisible: false,
       fileList: [],
       uploadHeaders: { Authorization: "Bearer " + getItem("token") },
-      uploadUrl: "http://lqgapidemo.quechao.xyz/upload/image",
+      uploadUrl: "https://api.rikkas.xyz/upload/image",
       rules: {
         imgurl: [
           { required: true, message: "请选择一张图片", taggle: "blur" },

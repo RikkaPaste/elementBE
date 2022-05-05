@@ -90,7 +90,7 @@ export default {
   },
   filters: {
     src(src) {
-      return "http://lqgapidemo.quechao.xyz/images/upload/rootswiper/" + src;
+      return "https://api.rikkas.xyz/images/upload/rootswiper/" + src;
     },
     formatDate(value, str = "YYYY-MM-DD HH:mm:ss") {
       return dayjs(value).format(str);

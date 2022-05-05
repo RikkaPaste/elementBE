@@ -33,7 +33,7 @@ export default {
     return {
       //给请求头加上jwttoken
       uploadHeaders: { Authorization: "Bearer " + getItem("token") },
-      uploadUrl: "http://lqgapidemo.quechao.xyz/upload/image",
+      uploadUrl: "https://api.rikkas.xyz/upload/image",
       formModel: {
         pics: [],
       },

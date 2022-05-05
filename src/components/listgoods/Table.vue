@@ -100,7 +100,7 @@ export default {
   },
   filters:{
     src(src){
-      return 'http://lqgapidemo.quechao.xyz/images/upload/prd/'+src;
+      return 'https://api.rikkas.xyz/images/upload/prd/'+src;
     },
     formatDate(value, str = 'YYYY-MM-DD HH:mm:ss') {
                 return dayjs(value).format(str);
